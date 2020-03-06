@@ -42,12 +42,26 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 3. ***You can check the output in eclipse browser or in your browser.***
 
 ## Progression - 1 
-1. ***Day - 4 We will save our blog in an excel sheet.***
-2. ***Your task is to create a class called as ExcelFileStorage inside service folder.***
-3. ***Create a method called as insertBlog(Blog blog)***
-4. ***You are using apachi poi to create excel.***
-5. ***Call the insertBlog method from the BlogController after checking for offensive words.***
-6. ***Your output is an excel file.***
+1. ***Day - 5 We will perform CRUD operations using LIST.***
+2. ***Your task is to create a class called as CRUDOperations inside service folder.***
+3. ***Create a method called as public List<Blog> createBlog(Blog blog).***
+4. ***Create a method called as public List<Blog> viewBlog(Blog blog)***
+5. ***Create a method called as public List<Blog> updateBlog(Blog blog)***
+6. ***Create a method called as public List<Blog> deleteBlog(Blog blog)***
+6. ***Your output is a list***
+ 
+
+## Progression - 2
+- **Perform sorting using lambda expressions and display the output in console.**
+- **Perform sorting based on title and posted date.**
+
+## Bonus - 1
+- **Use Set to perform the above operations.**
+- **Display the output in console.**
+
+## Bonus - 2 
+- **Use Map to perform the above operations.**
+- **Display the output in console.**
 
 
 Happy Coding ProGrad ❤️

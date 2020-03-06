@@ -48,7 +48,8 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 4. ***Create a method called as public List<Blog> viewBlog(Blog blog)***
 5. ***Create a method called as public List<Blog> updateBlog(Blog blog)***
 6. ***Create a method called as public List<Blog> deleteBlog(Blog blog)***
-6. ***Your output is a list***
+7. ***Your output is a list***
+8. ***Print the list in the console and also return the output to blog controller.***
  
 
 ## Progression - 2

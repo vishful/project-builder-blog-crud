@@ -61,16 +61,7 @@ public class BlogController extends HttpServlet {
 		
 		CRUDOperations crud=new CRUDOperations();
 		List<Blog> listblog = crud.createBlog(blog);
-	
-	//	List<Blog> listblog = excel.getAllBlogs();
-		
-		for(Blog blg:listblog) {
-			System.out.println(blg.getBlogTitle());
-			System.out.println(blg.getBlogDescription());
-			System.out.println(blg.getDate());
-		}
-	
-		System.out.println(check);
+
 		if(check) {
 			request.setAttribute("listBlog", listblog);
 //			request.setAttribute("blog", blog);

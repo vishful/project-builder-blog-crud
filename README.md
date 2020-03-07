@@ -44,17 +44,15 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 ## Progression - 1 
 1. ***Day - 5 We will perform CRUD operations using LIST.***
 2. ***Your task is to create a class called as CRUDOperations inside service folder.***
-3. ***Create a method called as public List<Blog> createBlog(Blog blog).***
+3. ***Create a method called as public List<Blog> addBlog(Blog blog).***
 4. ***Create a method called as public List<Blog> viewBlog(Blog blog)***
-5. ***Create a method called as public List<Blog> updateBlog(Blog blog)***
-6. ***Create a method called as public List<Blog> deleteBlog(Blog blog)***
 7. ***Your output is a list***
 8. ***Print the list in the console and also return the output to blog controller.***
  
 
 ## Progression - 2
 - **Perform sorting using lambda expressions and display the output in console.**
-- **Perform sorting based on title and posted date.**
+- **Perform sorting based on title and posted date and display the output in console.**
 
 ## Bonus - 1
 - **Use Set to perform the above operations.**
